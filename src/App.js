@@ -5,7 +5,6 @@ import MenuFlipbook from "./MenuFlipbook";
 function App() {
   return (
     <div>
-    <img src="/images/logo-r.png" alt="Logo" />
       <MenuFlipbook />
     </div>
   );
