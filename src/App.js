@@ -1,3 +1,4 @@
+import logo from '/images/logo-r.png';
 import React from "react";
 import MenuFlipbook from "./MenuFlipbook";
 
