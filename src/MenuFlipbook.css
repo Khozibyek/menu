@@ -1,0 +1,142 @@
+.coverPage {
+   background: url('/public/images/3320402_9224.jpg') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coverPage img {
+  display: block;
+  margin: 150px auto 0 225px; /* top right bottom left */
+  width: 90px;
+  height: auto;
+}
+
+/* Утасны дэлгэцэнд (max-width: 480px) */
+@media (max-width: 380px) {
+  .coverPage img {
+    width: 80px; 
+    margin-top: 180px;  
+    margin-left: 222px;
+  }
+}
+
+.coverPage h1 {
+    margin-top: 120px;
+    margin-left: 190px;
+    color: rgba(223, 223, 153, 0.878);
+}
+
+@media (max-width: 380px) {
+  .coverPage h1 {
+    font-size: 26px;
+  }
+}
+
+.demoPage {
+  background: 
+  /* url('/public/images/logo-r.png') center/400px no-repeat, */
+  url('/public/images/menu-1.png') center/cover no-repeat; 
+  filter: brightness(80%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.demoPage img {
+    width: 100%;
+    filter: brightness(80%);
+}
+
+
+.demoPage h1 {
+  color: #ffffff;
+}
+
+.food-card-left {
+  display: flex;
+  align-items: center;       
+  padding: 10px 20px;
+  /* margin-top: 15px; */
+  width: 60%;       
+  gap: 10px;
+  /* background: rgba(0,0,0,0.2);  */
+  backdrop-filter: blur(8px); 
+  border-radius: 0 40px 0px 0 ;
+}
+
+.food-card-left .food-img {
+  flex: 0 0 20%;     /* яг 30% өргөн эзэлнэ */
+  width: 50%;       /* өөрт оногдсон 30%-ийг дүүргэнэ */
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid aliceblue;
+  object-fit: cover; /* пропорц алдагдуулахгүй */
+}
+
+.food-card-left .food-text {
+  flex: 0 0 80%;     /* үлдсэн зайг авна */
+  text-align: left;
+}
+
+
+.food-card-left .food-name {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.food-card-left .food-discription {
+  font-size: 11px;
+  color: white;
+  width: 100%;
+}
+
+
+.food-card-right {
+  display: flex;
+  align-items: center;       
+  padding: 10px 20px;
+  /* margin-top: 15px; */
+  width: 60%;       
+  gap: 10px;
+  /* background: rgba(0,0,0,0.2);  */
+  backdrop-filter: blur(8px); 
+  border-radius: 0 40px 0px 0 ;
+}
+
+.food-card-right .food-img {
+  flex: 0 0 20%;     /* яг 30% өргөн эзэлнэ */
+  width: 50%;       /* өөрт оногдсон 30%-ийг дүүргэнэ */
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid aliceblue;
+  object-fit: cover; /* пропорц алдагдуулахгүй */
+}
+
+.food-card-right .food-text {
+  flex: 0 0 80%;     /* үлдсэн зайг авна */
+  text-align: right;
+}
+
+.food-card-right .food-name {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.food-card-right .food-discription {
+  font-size: 11px;
+  color: white;
+  width: 100%;
+}
+
+
+
+
+
+
+
